@@ -1,0 +1,82 @@
+#rashi {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: bisque;
+}
+
+#left {
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+
+img {
+    border-radius: 15px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(189, 65, 12);
+    color: white;
+    border-color: brown;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(189, 65, 12);
+}
+
+#prices {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#yakar {
+    margin-top: 30px;
+    margin-left: 20px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+#warning {
+    font-size: x-small;
+}
+
+#zol {
+    color: rgb(189, 65, 12);
+}
+
+#head {
+    color: rgb(189, 65, 12);
+}
+
+#perfume {
+    font-size: large;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+#bzaza {
+    text-align: center;
+}
